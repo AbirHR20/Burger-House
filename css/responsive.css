@@ -1,0 +1,193 @@
+@media (max-width : 575px) {
+    .fs-114 {
+        font-size: 60px !important;
+    }
+
+    nav{
+        text-align: center;
+    }
+
+    #banner .banner .banner-text {
+        padding-top: 200px !important;
+        padding-bottom: 300px !important;
+    }
+
+    #about .about .a1{
+        position: relative;
+        z-index: 1;
+        padding: 80px 0;
+        margin-bottom: 40px;
+    }
+
+    #about .about .a1::after{
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.60);
+        top: 0;
+        left: 0;
+        position: absolute;
+        z-index: -1;
+    }
+
+    #about .about .a1 h1 {
+        padding-left: 30px !important;
+    }
+
+    #about .about .a1 h2 {
+        padding-left: 30px !important;
+    }
+
+    #about .about .a2{
+        position: relative;
+        z-index: 1;
+        margin-bottom: 40px;
+    }
+
+    #about .about .a2::after{
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.60);
+        top: 0;
+        left: 0;
+        position: absolute;
+        z-index: -1;
+    }
+
+    #about .about .a3{
+        position: relative;
+        z-index: 1;
+        padding: 80px 0;
+        margin-bottom: 40px;
+    }
+
+    #about .about .a3::after{
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.60);
+        top: 0;
+        left: 0;
+        position: absolute;
+        z-index: -1;
+    }
+
+    #enjoy .enjoy .item{
+        margin-bottom: 60px;
+    }
+
+    #book .book {
+        padding: 100px 0 !important;
+    }
+
+    #book .book input{
+        margin-bottom: 20px;
+    }
+
+    footer .des article {
+        padding-bottom: 100px !important;
+    }
+
+    footer .add ul {
+        margin-top: 100px !important;
+    }
+    
+}
+
+@media (max-width : 767px) {
+    .fs-114 {
+        font-size: 60px !important;
+    }
+
+    nav{
+        text-align: center;
+    }
+
+    #banner .banner .banner-text {
+        padding-top: 200px !important;
+        padding-bottom: 300px !important;
+    }
+
+    #about .about .a1{
+        position: relative;
+        z-index: 1;
+        padding: 80px 0;
+        margin-bottom: 40px;
+    }
+
+    #about .about .a1::after{
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.60);
+        top: 0;
+        left: 0;
+        position: absolute;
+        z-index: -1;
+    }
+
+    #about .about .a1 h1 {
+        padding-left: 30px !important;
+    }
+
+    #about .about .a1 h2 {
+        padding-left: 30px !important;
+    }
+
+    #about .about .a2{
+        position: relative;
+        z-index: 1;
+        margin-bottom: 40px;
+    }
+
+    #about .about .a2::after{
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.60);
+        top: 0;
+        left: 0;
+        position: absolute;
+        z-index: -1;
+    }
+
+    #about .about .a3{
+        position: relative;
+        z-index: 1;
+        padding: 80px 0;
+        margin-bottom: 40px;
+    }
+
+    #about .about .a3::after{
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.60);
+        top: 0;
+        left: 0;
+        position: absolute;
+        z-index: -1;
+    }
+
+    #enjoy .enjoy .item{
+        margin-bottom: 60px;
+    }
+
+    #book .book {
+        padding: 100px 0 !important;
+    }
+
+    #book .book input{
+        margin-bottom: 20px;
+    }
+
+    footer .des article {
+        padding-bottom: 100px !important;
+    }
+
+    footer .add ul {
+        margin-top: 100px !important;
+    }
+    
+}

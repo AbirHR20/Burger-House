@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap');
+
+/*
+import css ends
+*/
+
+:root{
+    --af: 'Alfa Slab One', cursive;
+    --mf: 'Montserrat', sans-serif;
+    --bf: 'Bebas Neue', cursive;
+    --brand: #3d2514;
+}
+
+/*
+root css ends
+*/
+
+.a-reg{
+    font-family: var(--af);
+    font-weight: 400;
+}
+
+.b-reg{
+    font-family: var(--bf);
+    font-weight: 400;
+}
+
+.m-reg{
+    font-family: var(--mf);
+    font-weight: 400;
+}
+
+.m-bold{
+    font-family: var(--mf);
+    font-weight: 700;
+}
+
+/*
+font family css ends
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+/*
+common css ends
+*/
+
+.brand{
+    color: var(--brand);
+}
+
+/*
+color css ends
+*/
+
+.fs-16{
+    font-size: 16px;
+}
+
+.fs-20{
+    font-size: 20px;
+}
+
+.fs-23{
+    font-size: 23px;
+}
+
+.fs-25{
+    font-size: 25px;
+}
+
+.fs-29{
+    font-size: 29px;
+}
+
+.fs-37{
+    font-size: 37px;
+}
+
+.fs-41{
+    font-size: 41px;
+}
+
+.fs-50{
+    font-size: 50px;
+}
+
+.fs-56{
+    font-size: 56px;
+}
+
+.fs-114{
+    font-size: 114px;
+}
+
+/*
+font size css ends
+*/
+
+nav{
+    z-index: 999;
+}
+
+/*
+nav css ends
+*/
+
+#banner .banner{
+    background-image: url(../images/banner-back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#banner .banner .banner-text{
+    padding-top: 300px;
+    padding-bottom: 500px;
+}
+
+#banner .banner .banner-text h1{
+    filter: drop-shadow(6px 6px 0px #fee8bc);
+    -webkit-filter: drop-shadow(6px 6px 0px #fee8bc);
+}
+
+#banner .banner .banner-text h2{
+    filter: drop-shadow(6px 6px 0px #fee8bc);
+    -webkit-filter: drop-shadow(6px 6px 0px #fee8bc);
+}
+
+#banner .banner .add{
+    padding: 100px 0;
+}
+
+/*
+banner css ends
+*/
+
+#about .about {
+    margin-bottom: 100px;
+}
+
+#about .about .a1{
+    background-image: url(../images/a1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+}
+
+#about .about .a1 h2{
+    padding-top: 30px;
+    padding-left: 5px;
+}
+
+#about .about .a1 h1{
+    padding-left: 5px;
+}
+
+#about .about .a2{
+    background-image: url(../images/a2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(0.9);
+}
+
+#about .about .a2 h2{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+#about .about .a2 h1{
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+#about .about .a3{
+    background-image: url(../images/a3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(0.9);
+}
+
+#about .about .a3 h2{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+#about .about .a3 h1{
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+/*
+about css ends
+*/
+
+#enjoy .enjoy{
+    padding-bottom: 150px;
+}
+
+#enjoy .enjoy header{
+    margin-bottom: 60px;
+}
+
+/*
+enjoy css ends
+*/
+
+#events .events{
+    padding-bottom: 60px;
+}
+
+
+#events .events .events-item .text{
+    padding-top: 8%;
+    padding-left: 30px;
+}
+
+.shadow{
+    box-shadow: 0 0 31px rgba(0, 0, 0, 0.30);
+}
+
+#events .slick-dots{
+    position: absolute;
+    left: 70%;
+    bottom: 30px;
+    display: flex;
+    transform: translateX(-50%);
+}
+
+#events .slick-dots li{
+    background-color: #dcdcdc;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+#events .slick-dots li.slick-active{
+    background-color: var(--brand);
+    border: 1px solid var(--brand);
+} 
+
+#events .slick-dots li button{
+    font-size: 0px;
+    border: none;
+    outline: none;
+}
+
+/*
+events css ends
+*/
+
+#book .book{
+    background-image: url(../images/book-back.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 250px 0;
+}
+
+#book .book header{
+    margin-bottom: 80px;
+}
+
+/*
+book css ends
+*/
+
+footer{
+    background-image: url(../images/footer-back.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 110px;
+}
+
+footer .des article{
+    padding-top: 60px;
+    padding-bottom: 160px;
+}
+
+footer .add{
+    padding-top: 120px;
+}
+
+footer .add ul{
+    margin-top: 240px;
+}
